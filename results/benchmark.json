@@ -1,0 +1,676 @@
+{
+  "environment": {
+    "torch": "2.12.0+cpu",
+    "cuda_available": false,
+    "threads": 4,
+    "seq_len": 96,
+    "batch_sizes": [
+      1,
+      16
+    ]
+  },
+  "disk": {
+    "modular_full_dir_bytes": 3809258,
+    "modular_full_dir_human": "3.63 MiB",
+    "modular_shared_file_bytes": 2209965,
+    "modular_manifest_bytes": 2606,
+    "modular_block_bytes": {
+      "0": 532229,
+      "1": 532229,
+      "2": 532229
+    },
+    "dense_7_bytes": 3802773,
+    "dense_shared_bytes": 2210441
+  },
+  "loading": {
+    "modular": {
+      "shared": {
+        "selected_blocks": [],
+        "logical_checkpoint_bytes_excluding_manifest": 2209965,
+        "manifest_bytes": 2606,
+        "first_load_ms": 27.487899991683662,
+        "warm_median_load_ms": 30.20769999420736,
+        "all_median_load_ms": 29.64829999837093,
+        "first_read_transfer_bytes": 2622583,
+        "warm_median_read_transfer_bytes": 2619754.0,
+        "runs": [
+          {
+            "repeat": 0,
+            "seconds": 0.027487899991683662,
+            "read_transfer_bytes_delta": 2622583,
+            "loaded_parameter_count": 548864,
+            "active_parameter_count": 548864,
+            "loaded_blocks": []
+          },
+          {
+            "repeat": 1,
+            "seconds": 0.03076709999004379,
+            "read_transfer_bytes_delta": 2619754,
+            "loaded_parameter_count": 548864,
+            "active_parameter_count": 548864,
+            "loaded_blocks": []
+          },
+          {
+            "repeat": 2,
+            "seconds": 0.029284300006111152,
+            "read_transfer_bytes_delta": 2619754,
+            "loaded_parameter_count": 548864,
+            "active_parameter_count": 548864,
+            "loaded_blocks": []
+          },
+          {
+            "repeat": 3,
+            "seconds": 0.031827099999645725,
+            "read_transfer_bytes_delta": 2619754,
+            "loaded_parameter_count": 548864,
+            "active_parameter_count": 548864,
+            "loaded_blocks": []
+          },
+          {
+            "repeat": 4,
+            "seconds": 0.02964829999837093,
+            "read_transfer_bytes_delta": 2619754,
+            "loaded_parameter_count": 548864,
+            "active_parameter_count": 548864,
+            "loaded_blocks": []
+          }
+        ],
+        "loaded_parameter_count": 548864,
+        "active_parameter_count": 548864
+      },
+      "b0": {
+        "selected_blocks": [
+          0
+        ],
+        "logical_checkpoint_bytes_excluding_manifest": 2742194,
+        "manifest_bytes": 2606,
+        "first_load_ms": 43.79660000267904,
+        "warm_median_load_ms": 45.133349995012395,
+        "all_median_load_ms": 43.79660000267904,
+        "first_read_transfer_bytes": 3553222,
+        "warm_median_read_transfer_bytes": 3553222.0,
+        "runs": [
+          {
+            "repeat": 0,
+            "seconds": 0.04379660000267904,
+            "read_transfer_bytes_delta": 3553222,
+            "loaded_parameter_count": 680832,
+            "active_parameter_count": 680832,
+            "loaded_blocks": [
+              0
+            ]
+          },
+          {
+            "repeat": 1,
+            "seconds": 0.08849199999531265,
+            "read_transfer_bytes_delta": 3553222,
+            "loaded_parameter_count": 680832,
+            "active_parameter_count": 680832,
+            "loaded_blocks": [
+              0
+            ]
+          },
+          {
+            "repeat": 2,
+            "seconds": 0.0407126999925822,
+            "read_transfer_bytes_delta": 3553222,
+            "loaded_parameter_count": 680832,
+            "active_parameter_count": 680832,
+            "loaded_blocks": [
+              0
+            ]
+          },
+          {
+            "repeat": 3,
+            "seconds": 0.0420317999960389,
+            "read_transfer_bytes_delta": 3553222,
+            "loaded_parameter_count": 680832,
+            "active_parameter_count": 680832,
+            "loaded_blocks": [
+              0
+            ]
+          },
+          {
+            "repeat": 4,
+            "seconds": 0.04823489999398589,
+            "read_transfer_bytes_delta": 3553222,
+            "loaded_parameter_count": 680832,
+            "active_parameter_count": 680832,
+            "loaded_blocks": [
+              0
+            ]
+          }
+        ],
+        "loaded_parameter_count": 680832,
+        "active_parameter_count": 680832
+      },
+      "b2": {
+        "selected_blocks": [
+          2
+        ],
+        "logical_checkpoint_bytes_excluding_manifest": 2742194,
+        "manifest_bytes": 2606,
+        "first_load_ms": 35.96960000868421,
+        "warm_median_load_ms": 41.7438999938895,
+        "all_median_load_ms": 40.784099997836165,
+        "first_read_transfer_bytes": 3553222,
+        "warm_median_read_transfer_bytes": 3553222.0,
+        "runs": [
+          {
+            "repeat": 0,
+            "seconds": 0.03596960000868421,
+            "read_transfer_bytes_delta": 3553222,
+            "loaded_parameter_count": 680832,
+            "active_parameter_count": 680832,
+            "loaded_blocks": [
+              2
+            ]
+          },
+          {
+            "repeat": 1,
+            "seconds": 0.03277049999451265,
+            "read_transfer_bytes_delta": 3553222,
+            "loaded_parameter_count": 680832,
+            "active_parameter_count": 680832,
+            "loaded_blocks": [
+              2
+            ]
+          },
+          {
+            "repeat": 2,
+            "seconds": 0.040784099997836165,
+            "read_transfer_bytes_delta": 3553222,
+            "loaded_parameter_count": 680832,
+            "active_parameter_count": 680832,
+            "loaded_blocks": [
+              2
+            ]
+          },
+          {
+            "repeat": 3,
+            "seconds": 0.04443069999979343,
+            "read_transfer_bytes_delta": 3553222,
+            "loaded_parameter_count": 680832,
+            "active_parameter_count": 680832,
+            "loaded_blocks": [
+              2
+            ]
+          },
+          {
+            "repeat": 4,
+            "seconds": 0.042703699989942834,
+            "read_transfer_bytes_delta": 3553222,
+            "loaded_parameter_count": 680832,
+            "active_parameter_count": 680832,
+            "loaded_blocks": [
+              2
+            ]
+          }
+        ],
+        "loaded_parameter_count": 680832,
+        "active_parameter_count": 680832
+      },
+      "b0_b1": {
+        "selected_blocks": [
+          0,
+          1
+        ],
+        "logical_checkpoint_bytes_excluding_manifest": 3274423,
+        "manifest_bytes": 2606,
+        "first_load_ms": 67.62699999671895,
+        "warm_median_load_ms": 76.16235000023153,
+        "all_median_load_ms": 75.20010000735056,
+        "first_read_transfer_bytes": 4486690,
+        "warm_median_read_transfer_bytes": 4486690.0,
+        "runs": [
+          {
+            "repeat": 0,
+            "seconds": 0.06762699999671895,
+            "read_transfer_bytes_delta": 4486690,
+            "loaded_parameter_count": 812800,
+            "active_parameter_count": 812800,
+            "loaded_blocks": [
+              0,
+              1
+            ]
+          },
+          {
+            "repeat": 1,
+            "seconds": 0.06839849999232683,
+            "read_transfer_bytes_delta": 4486690,
+            "loaded_parameter_count": 812800,
+            "active_parameter_count": 812800,
+            "loaded_blocks": [
+              0,
+              1
+            ]
+          },
+          {
+            "repeat": 2,
+            "seconds": 0.07520010000735056,
+            "read_transfer_bytes_delta": 4486690,
+            "loaded_parameter_count": 812800,
+            "active_parameter_count": 812800,
+            "loaded_blocks": [
+              0,
+              1
+            ]
+          },
+          {
+            "repeat": 3,
+            "seconds": 0.08560709998710081,
+            "read_transfer_bytes_delta": 4486690,
+            "loaded_parameter_count": 812800,
+            "active_parameter_count": 812800,
+            "loaded_blocks": [
+              0,
+              1
+            ]
+          },
+          {
+            "repeat": 4,
+            "seconds": 0.0771245999931125,
+            "read_transfer_bytes_delta": 4486690,
+            "loaded_parameter_count": 812800,
+            "active_parameter_count": 812800,
+            "loaded_blocks": [
+              0,
+              1
+            ]
+          }
+        ],
+        "loaded_parameter_count": 812800,
+        "active_parameter_count": 812800
+      },
+      "all": {
+        "selected_blocks": [
+          0,
+          1,
+          2
+        ],
+        "logical_checkpoint_bytes_excluding_manifest": 3806652,
+        "manifest_bytes": 2606,
+        "first_load_ms": 67.51760000770446,
+        "warm_median_load_ms": 82.89569999760715,
+        "all_median_load_ms": 80.8619000017643,
+        "first_read_transfer_bytes": 5420158,
+        "warm_median_read_transfer_bytes": 5420158.0,
+        "runs": [
+          {
+            "repeat": 0,
+            "seconds": 0.06751760000770446,
+            "read_transfer_bytes_delta": 5420158,
+            "loaded_parameter_count": 944768,
+            "active_parameter_count": 944768,
+            "loaded_blocks": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "repeat": 1,
+            "seconds": 0.08635100000537932,
+            "read_transfer_bytes_delta": 5420158,
+            "loaded_parameter_count": 944768,
+            "active_parameter_count": 944768,
+            "loaded_blocks": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "repeat": 2,
+            "seconds": 0.0808619000017643,
+            "read_transfer_bytes_delta": 5420158,
+            "loaded_parameter_count": 944768,
+            "active_parameter_count": 944768,
+            "loaded_blocks": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "repeat": 3,
+            "seconds": 0.08492949999345001,
+            "read_transfer_bytes_delta": 5420158,
+            "loaded_parameter_count": 944768,
+            "active_parameter_count": 944768,
+            "loaded_blocks": [
+              0,
+              1,
+              2
+            ]
+          },
+          {
+            "repeat": 4,
+            "seconds": 0.07091850000142585,
+            "read_transfer_bytes_delta": 5420158,
+            "loaded_parameter_count": 944768,
+            "active_parameter_count": 944768,
+            "loaded_blocks": [
+              0,
+              1,
+              2
+            ]
+          }
+        ],
+        "loaded_parameter_count": 944768,
+        "active_parameter_count": 944768
+      }
+    },
+    "dense": {
+      "dense_7": {
+        "bytes": 3802773,
+        "parameter_count": 944768,
+        "first_load_ms": 73.26590000593569,
+        "warm_median_load_ms": 75.95264999690698,
+        "first_read_transfer_bytes": 4214828,
+        "warm_median_read_transfer_bytes": 4214828.0,
+        "runs": [
+          {
+            "seconds": 0.07326590000593569,
+            "read_transfer_bytes_delta": 4214828,
+            "parameter_count": 944768
+          },
+          {
+            "seconds": 0.07483630000206176,
+            "read_transfer_bytes_delta": 4214828,
+            "parameter_count": 944768
+          },
+          {
+            "seconds": 0.07706899999175221,
+            "read_transfer_bytes_delta": 4214828,
+            "parameter_count": 944768
+          }
+        ]
+      },
+      "dense_shared": {
+        "bytes": 2210441,
+        "parameter_count": 548864,
+        "first_load_ms": 32.69940000609495,
+        "warm_median_load_ms": 31.791000001248904,
+        "first_read_transfer_bytes": 2617324,
+        "warm_median_read_transfer_bytes": 2617324.0,
+        "runs": [
+          {
+            "seconds": 0.03269940000609495,
+            "read_transfer_bytes_delta": 2617324,
+            "parameter_count": 548864
+          },
+          {
+            "seconds": 0.031516500006546266,
+            "read_transfer_bytes_delta": 2617324,
+            "parameter_count": 548864
+          },
+          {
+            "seconds": 0.03206549999595154,
+            "read_transfer_bytes_delta": 2617324,
+            "parameter_count": 548864
+          }
+        ]
+      }
+    }
+  },
+  "latency": {
+    "modular": {
+      "shared": {
+        "batch_1": {
+          "runs": 60,
+          "tokens_per_run": 96,
+          "mean_ms": 3.549514999758685,
+          "median_ms": 3.607849997933954,
+          "p95_ms": 3.7604999961331487,
+          "min_ms": 2.9854999884264544,
+          "max_ms": 3.944800002500415,
+          "tokens_per_second_median": 26608.64505314098,
+          "config": [],
+          "config_label": "shared",
+          "active_parameters": 548864,
+          "batch_size": 1,
+          "seq_len": 96
+        },
+        "batch_16": {
+          "runs": 20,
+          "tokens_per_run": 1536,
+          "mean_ms": 25.121200001012767,
+          "median_ms": 26.975599997967947,
+          "p95_ms": 28.912299996591173,
+          "min_ms": 17.311499992501922,
+          "max_ms": 29.782000012346543,
+          "tokens_per_second_median": 56940.346094830355,
+          "config": [],
+          "config_label": "shared",
+          "active_parameters": 548864,
+          "batch_size": 16,
+          "seq_len": 96
+        }
+      },
+      "b0": {
+        "batch_1": {
+          "runs": 60,
+          "tokens_per_run": 96,
+          "mean_ms": 5.226671666605398,
+          "median_ms": 5.267950000416022,
+          "p95_ms": 5.527700006496161,
+          "min_ms": 3.7600999930873513,
+          "max_ms": 7.595999995828606,
+          "tokens_per_second_median": 18223.407585952536,
+          "config": [
+            0
+          ],
+          "config_label": "B0",
+          "active_parameters": 680832,
+          "batch_size": 1,
+          "seq_len": 96
+        },
+        "batch_16": {
+          "runs": 20,
+          "tokens_per_run": 1536,
+          "mean_ms": 35.051355001633056,
+          "median_ms": 35.30224999849452,
+          "p95_ms": 36.9185000017751,
+          "min_ms": 31.369699994684197,
+          "max_ms": 37.38740000699181,
+          "tokens_per_second_median": 43509.97457854679,
+          "config": [
+            0
+          ],
+          "config_label": "B0",
+          "active_parameters": 680832,
+          "batch_size": 16,
+          "seq_len": 96
+        }
+      },
+      "b0_b1": {
+        "batch_1": {
+          "runs": 60,
+          "tokens_per_run": 96,
+          "mean_ms": 6.1750083322597975,
+          "median_ms": 6.139399993116967,
+          "p95_ms": 6.990900001255795,
+          "min_ms": 4.460599986487068,
+          "max_ms": 9.148500001174398,
+          "tokens_per_second_median": 15636.707187612465,
+          "config": [
+            0,
+            1
+          ],
+          "config_label": "B0+B1",
+          "active_parameters": 812800,
+          "batch_size": 1,
+          "seq_len": 96
+        },
+        "batch_16": {
+          "runs": 20,
+          "tokens_per_run": 1536,
+          "mean_ms": 41.60808500091662,
+          "median_ms": 41.976799999247305,
+          "p95_ms": 46.07199999736622,
+          "min_ms": 33.06770000199322,
+          "max_ms": 46.90869999467395,
+          "tokens_per_second_median": 36591.64109764304,
+          "config": [
+            0,
+            1
+          ],
+          "config_label": "B0+B1",
+          "active_parameters": 812800,
+          "batch_size": 16,
+          "seq_len": 96
+        }
+      },
+      "all": {
+        "batch_1": {
+          "runs": 60,
+          "tokens_per_run": 96,
+          "mean_ms": 7.5139733344258275,
+          "median_ms": 7.539699996414129,
+          "p95_ms": 8.493999994243495,
+          "min_ms": 5.6035000015981495,
+          "max_ms": 9.904899998218752,
+          "tokens_per_second_median": 12732.602098977077,
+          "config": [
+            0,
+            1,
+            2
+          ],
+          "config_label": "B0+B1+B2",
+          "active_parameters": 944768,
+          "batch_size": 1,
+          "seq_len": 96
+        },
+        "batch_16": {
+          "runs": 20,
+          "tokens_per_run": 1536,
+          "mean_ms": 49.09903999941889,
+          "median_ms": 49.24359999859007,
+          "p95_ms": 52.854900000966154,
+          "min_ms": 40.23250000318512,
+          "max_ms": 54.359400004614145,
+          "tokens_per_second_median": 31191.870619613073,
+          "config": [
+            0,
+            1,
+            2
+          ],
+          "config_label": "B0+B1+B2",
+          "active_parameters": 944768,
+          "batch_size": 16,
+          "seq_len": 96
+        }
+      }
+    },
+    "dense": {
+      "dense_7": {
+        "batch_1": {
+          "runs": 60,
+          "tokens_per_run": 96,
+          "mean_ms": 6.42746999898615,
+          "median_ms": 6.5851500039570965,
+          "p95_ms": 7.33550000586547,
+          "min_ms": 4.742899996927008,
+          "max_ms": 8.856699991156347,
+          "tokens_per_second_median": 14578.255611840646,
+          "config": "dense",
+          "config_label": "dense",
+          "active_parameters": 944768,
+          "batch_size": 1,
+          "seq_len": 96
+        },
+        "batch_16": {
+          "runs": 20,
+          "tokens_per_run": 1536,
+          "mean_ms": 47.49452499891049,
+          "median_ms": 47.63644999911776,
+          "p95_ms": 51.773899991530925,
+          "min_ms": 35.6024999928195,
+          "max_ms": 52.27420000301208,
+          "tokens_per_second_median": 32244.21635173165,
+          "config": "dense",
+          "config_label": "dense",
+          "active_parameters": 944768,
+          "batch_size": 16,
+          "seq_len": 96
+        }
+      },
+      "dense_shared": {
+        "batch_1": {
+          "runs": 60,
+          "tokens_per_run": 96,
+          "mean_ms": 4.091853332162525,
+          "median_ms": 4.232100000081118,
+          "p95_ms": 4.595799997332506,
+          "min_ms": 2.964100000099279,
+          "max_ms": 5.1893000054406,
+          "tokens_per_second_median": 22683.77401246661,
+          "config": "dense",
+          "config_label": "dense",
+          "active_parameters": 548864,
+          "batch_size": 1,
+          "seq_len": 96
+        },
+        "batch_16": {
+          "runs": 20,
+          "tokens_per_run": 1536,
+          "mean_ms": 26.657074999820907,
+          "median_ms": 27.660800005833153,
+          "p95_ms": 28.690899998764507,
+          "min_ms": 20.572499997797422,
+          "max_ms": 30.921500001568347,
+          "tokens_per_second_median": 55529.847281209724,
+          "config": "dense",
+          "config_label": "dense",
+          "active_parameters": 548864,
+          "batch_size": 16,
+          "seq_len": 96
+        }
+      }
+    },
+    "generation_modular": {
+      "shared": {
+        "generated_tokens": 32,
+        "median_seconds": 0.0993185999977868,
+        "tokens_per_second": 322.1954397334747,
+        "sample": "ROMEO: courrife o nesor agalfed, hiblin"
+      },
+      "all": {
+        "generated_tokens": 32,
+        "median_seconds": 0.15861790000053588,
+        "tokens_per_second": 201.74267847381594,
+        "sample": "ROMEO: cousior posses is the sok?\n\nLAEN"
+      }
+    },
+    "generation_dense_7": {
+      "dense": {
+        "generated_tokens": 32,
+        "median_seconds": 0.1646273999940604,
+        "tokens_per_second": 194.37833556962286,
+        "sample": "ROMEO: courrt my dought and fall him in"
+      }
+    },
+    "generation_dense_shared": {
+      "dense": {
+        "generated_tokens": 32,
+        "median_seconds": 0.09320619999198243,
+        "tokens_per_second": 343.32480031105905,
+        "sample": "ROMEO: cour to po not bidd.\n\nMRINIUS:\nF"
+      }
+    }
+  },
+  "process": {
+    "peak_working_set_bytes": 246341632,
+    "current_working_set_bytes": 236011520,
+    "pagefile_peak_bytes": 524783616,
+    "read_transfer_bytes": 154708226,
+    "write_transfer_bytes": 430,
+    "read_operations": 3711,
+    "write_operations": 28,
+    "system_total_bytes": 16993865728,
+    "system_available_bytes": 8416645120,
+    "system_memory_load_percent": 50,
+    "source": "windows_psapi"
+  }
+}

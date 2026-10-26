@@ -1,0 +1,12 @@
+model,composition,active_parameters,val_loss,test_loss
+BlockBus joint all-active (main),shared + B0+B1+B2,944768,1.93101112979582,1.957607382193379
+BlockBus held-out all-active,shared + B0+B1+B2; pairs/triple unseen,944768,1.9763363322992435,1.9990717635757622
+BlockBus clean-pipeline all-active,independent dense shared + B0+B1+B2,944768,1.957599061110924,1.9793053462587553
+Dense 7-layer (parameter matched),7 always-on layers,944768,1.9340610032794119,1.9575468633366728
+Dense shared-only,4 always-on layers,548864,1.9808184349673919,2.002995361678902
+BlockBus shared-only (main),shared,548864,1.999148353488966,2.018754215898185
+Uniform random,non-parametric,0,4.189654742026425,4.189654742026425
+Unigram (add-one),non-parametric,66,3.3326417567260345,3.361963495301726
+Separate shared (400 steps),independently trained from scratch,548864,2.3729251335407127,2.3793285567184976
+Separate B0+B1+B2 (400 steps),independently trained from scratch,944768,2.3315756852599394,2.341901669557067
+Separate all-active (full budget),"independently trained, 1600 steps",944768,1.9368855388685204,1.9625782001977679
