@@ -1,5 +1,7 @@
 # BlockBus-LM
 
+**Repository:** [github.com/n1ckb4k/BlockBus-LM](https://github.com/n1ckb4k/BlockBus-LM)
+
 A CPU-scale research prototype for a modular character-level language model with one
 mandatory shared Transformer and three optional parameter blocks that can be selected,
 skipped, saved, and loaded independently.
@@ -247,6 +249,8 @@ Requires Python 3.10+ (tested on 3.14.4), PyTorch CPU, and about 16 GB RAM. The 
 machine is a 4-core / 8-thread Intel Core i7-10510U with 16 GB RAM and no CUDA.
 
 ```powershell
+git clone https://github.com/n1ckb4k/BlockBus-LM.git
+cd BlockBus-LM
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -e .

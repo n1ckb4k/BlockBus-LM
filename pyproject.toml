@@ -17,5 +17,10 @@ dependencies = [
 [project.optional-dependencies]
 dev = []
 
+[project.urls]
+Homepage = "https://github.com/n1ckb4k/BlockBus-LM"
+Repository = "https://github.com/n1ckb4k/BlockBus-LM"
+Issues = "https://github.com/n1ckb4k/BlockBus-LM/issues"
+
 [tool.setuptools.packages.find]
 include = ["modular_llm*"]

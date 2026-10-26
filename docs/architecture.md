@@ -1,5 +1,7 @@
 # Architecture: BlockBus-LM
 
+**Repository:** [github.com/n1ckb4k/BlockBus-LM](https://github.com/n1ckb4k/BlockBus-LM)
+
 Status: implemented and evaluated. This document records the final design, not the
 initial proposal. Results are in [`results/tables.md`](../results/tables.md) and the
 machine-readable summary is [`results/summary.json`](../results/summary.json).

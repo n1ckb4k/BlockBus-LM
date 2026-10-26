@@ -1,5 +1,7 @@
 # Literature comparison and novelty statement
 
+**Repository:** [github.com/n1ckb4k/BlockBus-LM](https://github.com/n1ckb4k/BlockBus-LM)
+
 This project is a controlled CPU-scale prototype, not a claim of a new fundamental
 learning algorithm. The ingredients below are established. The specific combination —
 a mandatory shared Transformer plus separately checkpointed optional Transformer layers

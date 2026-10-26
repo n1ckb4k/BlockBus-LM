@@ -1,5 +1,7 @@
 # Experiment log and interpretation notes
 
+**Repository:** [github.com/n1ckb4k/BlockBus-LM](https://github.com/n1ckb4k/BlockBus-LM)
+
 All reported training runs use seed 1337, batch size 16, context length 96, AdamW with
 learning rate `1e-3`, 100 warmup steps, cosine decay to 10%, weight decay 0.1, gradient
 clipping 1.0, and dropout 0.1. The optional blocks use twice the shared learning rate in
